@@ -245,13 +245,6 @@ build_emacs() {
     --with-mailutils \
     --without-compress-install \
     --with-tree-sitter \
-    --with-gif \
-    --with-png \
-    --with-tiff \
-    --with-xpm \
-    --with-xft \
-    --with-xml2 \
-    --with-jpeg \
     "$CONFIGURE_FLAGS" \
     --with-harfbuzz
 
