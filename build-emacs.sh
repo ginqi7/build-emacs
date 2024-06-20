@@ -239,9 +239,7 @@ build_emacs() {
 
   ./configure \
     --with-dbus \
-    --with-pgtk \
     --with-xwidgets \
-    --with-native-compilation=aot \
     --with-modules \
     --with-mailutils \
     --without-compress-install \

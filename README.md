@@ -58,7 +58,7 @@ To execute the build and installation script step-by-step, use the
 following command:
 
 ```shell
-bash -c "$(wget -qO- https://raw.githubusercontent.com/KarimAziev/build-emacs/main/build-emacs.sh)"
+bash -c "$(wget -qO- https://raw.githubusercontent.com/ginqi7/build-emacs/main/build-emacs.sh)"
 ```
 
 If you have already downloaded the script, simply execute:
@@ -73,7 +73,7 @@ To execute all steps without prompting, use the `-y` argument (which
 assumes "yes") to each question.
 
 ```shell
-bash -c "$(wget -qO- https://raw.githubusercontent.com/KarimAziev/build-emacs/main/build-emacs.sh) -y"
+bash -c "$(wget -qO- https://raw.githubusercontent.com/ginqi7/build-emacs/main/build-emacs.sh) -y"
 ```
 
 Or, if you have the script downloaded:
@@ -89,7 +89,7 @@ separated by commas. For instance, to only compile (`build_emacs`) and
 install (`install_emacs`) Emacs skipping other steps:
 
 ```shell
-bash -c "$(wget -qO- https://raw.githubusercontent.com/KarimAziev/build-emacs/main/build-emacs.sh) -s build_emacs,install_emacs"
+bash -c "$(wget -qO- https://raw.githubusercontent.com/ginqi7/build-emacs/main/build-emacs.sh) -s build_emacs,install_emacs"
 ```
 
 Or, if you have the script downloaded:
@@ -107,7 +107,7 @@ The example below will execute all steps except installing dependencies
 (`install_deps`).
 
 ```shell
-bash -c "$(wget -qO- https://raw.githubusercontent.com/KarimAziev/build-emacs/main/build-emacs.sh) -n install_deps"
+bash -c "$(wget -qO- https://raw.githubusercontent.com/ginqi7/build-emacs/main/build-emacs.sh) -n install_deps"
 ```
 
 Or, if you have the script downloaded:
@@ -122,7 +122,7 @@ To build in a custom directory, use the `-p` argument, followed by the
 path to your directory:
 
 ```shell
-bash -c "$(wget -qO- https://raw.githubusercontent.com/KarimAziev/build-emacs/main/build-emacs.sh) -p $HOME/myemacs"
+bash -c "$(wget -qO- https://raw.githubusercontent.com/ginqi7/build-emacs/main/build-emacs.sh) -p $HOME/myemacs"
 ```
 
 Or, if you have the script downloaded:
