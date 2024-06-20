@@ -239,6 +239,7 @@ build_emacs() {
 
   ./configure \
     --with-dbus \
+    --with-native-compilation=no \
     --with-xwidgets \
     --with-modules \
     --with-mailutils \
